@@ -22,52 +22,62 @@
                         <button class="btn bg-primary text-white" id="search-button">Search</button>
                     </div>
                 </form>
+
+              
+                     <button class="btn btn-primary" type="button" id="clear-history">Clear history</button>
+                     <ul class="city-list-group">
+                         <!--Will dynamically add list elements using javascript-->
+                     </ul>
+
             </div> 
             <div class="col-sm-8">
                 <div class="current-weather-container border rounded m-2">
                     <div class="col-sm" id="current-weather">
                         <h3 class="city-name" id="current-city"></h3>
-                        <p>Temperature:<span class="current" id="temperature"></span></p>
-                        <p>Humidity:<span class="current" id="humidity"></span></p> 
-                        <p>Wind Speed:<span class="current" id="wind-speed"></span></p>
+                        <p>Temperature: <span class="current" id="temperature"></span></p>
+                        <p>Humidity: <span class="current" id="humidity"></span></p> 
+                        <p>Wind Speed: <span class="current" id="wind-speed"></span></p>
                     </div>
                 </div>
                 <div class="col-sm" id ="future-weather">
                     <h3>5 Day Forecast:</h3>
                     <div class="row text-light mx-auto">
                         <div class="col-sm forecast m-2 p-2 rounded" >
-                            <p id="fDate0"></p>
-                            <p id="fImg0"></p>
-                            <p>Temp:<span id="fTemp0"></span></p>
-                            <p>Humidity:<span id="fHumidity0"></span></p>
+                            <p id="Date0"></p>
+                            <p id="Img0"></p>
+                            <p>Temp: <span id="Temp0"></span></p>
+                            <p>Humidity: <span id="Humidity0"></span></p>
                         </div>
                         <div class="col-sm forecast m-2 p-2 rounded" >
-                            <p id="fDate1"></p>
-                            <p id="fImg1"></p>
-                            <p>Temp:<span id="fTemp1"></span></p>
-                            <p>Humidity:<span id="fHumidity1"></span></p>
+                            <p id="Date1"></p>
+                            <p id="Img1"></p>
+                            <p>Temp: <span id="Temp1"></span></p>
+                            <p>Humidity: <span id="Humidity1"></span></p>
                         </div>
                         <div class="col-sm forecast m-2 p-2 rounded">
-                            <p id="fDate2"></p>
-                            <p id="fImg2"></p>
-                            <p>Temp:<span id="fTemp2"></span></p>
-                            <p>Humidity:<span id="fHumidity2"></span></p>
+                            <p id="Date2"></p>
+                            <p id="Img2"></p>
+                            <p>Temp: <span id="Temp2"></span></p>
+                            <p>Humidity: <span id="Humidity2"></span></p>
                         </div>
                         <div class="col-sm forecast m-2 p-2 rounded">
-                            <p id="fDate3"></p>
-                            <p id="fImg3"></p>
-                            <p>Temp:<span id="fTemp3"></span></p>
-                            <p>Humidity:<span id="fHumidity3"></span></p>
+                            <p id="Date3"></p>
+                            <p id="Img3"></p>
+                            <p>Temp: <span id="Temp3"></span></p>
+                            <p>Humidity: <span id="Humidity3"></span></p>
                         </div>
                         <div class="col-sm forecast m-2 p-2 rounded" >
-                            <p id="fDate4"></p>
-                            <p id="fImg4"></p>
-                            <p>Temp:<span id="fTemp4"></span></p>
-                            <p>Humidity:<span id="fHumidity4"></span></p>
+                            <p id="Date4"></p>
+                            <p id="Img4"></p>
+                            <p>Temp: <span id="Temp4"></span></p>
+                            <p>Humidity: <span id="Humidity4"></span></p>
                         </div>
                     </div>
                 </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

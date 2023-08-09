@@ -5,6 +5,9 @@
 body {
     font-size: 16px;
 }
+li{
+    padding: 10px;
+}
 .jumbotron{
     background: linear-gradient(to right,#0160dd, #010650);
     color: #d0d4d8;
@@ -15,8 +18,8 @@ body {
 }
 .forecast{
     color: white;
-    background-color: #0160dd;
+    background: linear-gradient(to right,#0160dd, #020a7c);
 }
-#search-button{
-    background-color: #0160dd;
-}
+
+
+
