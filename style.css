@@ -3,20 +3,8 @@
     box-sizing: border-box; 
 }
 body {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
-}
-h3{
-    font-weight: bold;
+    font-size: 16px;  
 }
 .jumbotron{
     background: linear-gradient(to right,#0160dd, #010650);
-}
-.forecast{
-    
-    font-size: 0.9em;
-}
-li:hover{
-    background-color: lightslategray;
-    text-decoration: underline;
 }
